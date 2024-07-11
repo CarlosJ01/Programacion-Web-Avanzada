@@ -1,0 +1,53 @@
+.CardProducto{
+    margin: 0 auto;
+}
+
+.CardProducto .card{
+    height: 100%;
+    width: 18rem;
+}
+
+.CardProducto .card-header{
+    height: 4em;
+    font-weight: 600;
+    font-size: 1em;
+}
+
+.CardProducto .card-img-top{
+    margin-bottom: 1em;
+}
+
+.CardProducto .card-title{
+    color: #007bff;
+    font-weight: bold;
+}
+
+.CardProducto .card-text{
+    font-size: 0.8em;
+}
+
+.CardProducto .card-footer{
+    background-color: white;
+}
+
+.CardProducto .Oferta{
+    margin: 1em 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.CardProducto .Oferta > .Solo > p{
+    background-color: red;
+    color: white;
+    border-radius: 7px;
+    text-align: center;
+    width: 5em;
+    font-family: 'Teko', sans-serif;
+    font-size: 1.3em;
+}
+
+.CardProducto .Oferta > .PrecioAnterior{
+    margin: 0 auto;
+    font-weight: bold;
+    text-decoration: line-through;
+}

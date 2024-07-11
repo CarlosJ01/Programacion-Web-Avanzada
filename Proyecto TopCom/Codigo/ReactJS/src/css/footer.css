@@ -1,0 +1,71 @@
+footer{
+    margin: 0;
+    padding: 0;
+    background: #232f3e;
+    color: #dddad8;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+}
+
+.Informacion{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: minmax(4em, auto);
+    gap: 1em;
+}
+
+.RedesSociales{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    grid-template-rows: minmax(4em, auto);
+    gap: 1em;
+}
+.RedesSociales > *{
+    font-size: 1em;
+    margin: auto;
+}
+.RedesSociales > .RedSocial > a{
+    font-size: 3em;
+    color: #dddad8;
+}
+.RedesSociales > .RedSocial > a:hover{
+    color: #ffffff;
+}
+
+.Suscripcion{
+    margin: 1em auto;
+}
+.Suscripcion > label{
+    margin: auto;
+    margin-top: 1em;
+    margin-bottom: 0.5em;
+    width: 33em;
+    text-align: left;
+}
+.Suscripcion > #suscripcion{
+    width: 30em;
+    height: 3em;
+    border-color: #ffc107;
+    border-radius: 5px;
+    font-size: 1em;
+    padding: 0.5em;
+    margin-bottom: 1em;
+    margin-right: 1em;
+}
+.Suscripcion > #btnSuscripcion{
+    width: 2em;
+    height: 2em;
+    font-size: 1.5em;
+}
+
+.CopyRight{
+    background: #131a22;
+    width: 100%;
+    height: 5em;
+    display: grid;
+    grid-template-columns: 1;
+}
+
+.CopyRight > h6{
+    margin-top: 1em;
+}

@@ -1,0 +1,44 @@
+.AcercaNosotros{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: minmax(4em, auto);
+    gap: 2em;
+}
+
+.AcercaNosotros > .Imagen{
+    grid-column: 1;
+    grid-row: 1;
+    margin: auto;
+    display: grid;
+}
+.AcercaNosotros > .Imagen > img{
+    border-radius: 1em;
+    margin: auto;
+    height: 57em;
+}
+
+.AcercaNosotros > .Informacion{
+    grid-column: 2/4;
+    grid-row: 1;
+    margin: auto;
+
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(3, 1fr);
+    row-gap: 2em;
+}
+
+.Valores{
+    grid-column: 1/4;
+    grid-row: 2;
+
+    text-align: left;
+}
+
+.Valor{
+    margin-bottom: 1em;
+}
+.Valor > .card-title{
+    font-size: 2em;
+    font-family: 'Teko', sans-serif;
+}

@@ -1,0 +1,24 @@
+Proyecto de Programacion Web Avanzada (ReactJS) Tienda de Hardware(TopCom)
+Carlos Jahir Castro Cázares     17120151
+
+Descarge una dependencia de FontAwsome para los iconos, asi que se debera de instalar esta para
+que se muestren los iconos
+$ npm i --save @fortawesome/fontawesome-svg-core
+$ npm i --save @fortawesome/free-solid-svg-icons
+$ npm i --save @fortawesome/react-fontawesome
+$ npm i --save @fortawesome/free-brands-svg-icons
+$ npm i --save @fortawesome/free-regular-svg-icons
+
+Hice el backend de donde extraigo algunas imagenes y la informacion en json.
+Monte el backend en Heroku para que este disponible y se pueda usar donde sea.
+igualmente lo subi a github por si se desea consultar el codigo, realize el backend en laravel
+
+URL: https://topcom-backend.herokuapp.com/
+GitHub: https://github.com/CarlosJ01/TopCom_BackEnd
+
+Finalmente para mostrar la aplicacion de react corriendo la subi a FireBase, por si lo desea ver
+ya en la nube o si hay algun problema al montralo localmente, se pueda ver la aplicacion sin la
+necesidad de montarla localmente.
+
+URL: https://topcom-6ff92.firebaseapp.com/
+GitHub: https://github.com/CarlosJ01/TopCom

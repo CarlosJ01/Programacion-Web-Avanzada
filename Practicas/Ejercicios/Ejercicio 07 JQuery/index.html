@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!-- Libreria JQuery -->
+        <script src="jquery-3.4.1.min.js"></script>
+
+        <title>JQuery</title>
+    </head>
+    
+    <!-- JQuery -->
+    <script>
+        //Cuando el documento se haya cargado ejecuta inicio
+        $(document).ready(inicio)
+        function inicio(){
+            $('#aceptar').on('click',mensaje);
+        }
+        function mensaje(){
+            alert('Que Honda !!!!!');
+        }
+    </script>
+
+    <body>
+        <button id="aceptar">Alerta</button>
+    </body>
+</html>

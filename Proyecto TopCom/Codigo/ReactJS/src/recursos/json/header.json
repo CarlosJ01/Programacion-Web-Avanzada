@@ -1,0 +1,28 @@
+{
+    "eslogan" : "Todo para tu PC",
+    "Principal" : {
+        "id" : 1,
+        "nombre" : "Principal",
+        "url" : "/" 
+    },
+    "Acerca" : {
+        "id" : 2,
+        "nombre" : "Acerca de Nosotros",
+        "url" : "/acercaTopcom" 
+    },
+    "Mapa" : {
+        "id" : 3,
+        "nombre" : "Mapa de Ubicacion",
+        "url" : "/mapa" 
+    },
+    "Catalogo" : {
+        "id" : 4,
+        "nombre" : "Catalogo",
+        "url" : "/catalogo" 
+    },
+    "Noticias" : {
+        "id" : 5,
+        "nombre" : "Noticias / Ofertas",
+        "url" : "/ofertas-noticias" 
+    }
+}
